@@ -53,6 +53,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Accessory.cs" />
+    <Compile Include="Ingredient.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="Liquid.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
