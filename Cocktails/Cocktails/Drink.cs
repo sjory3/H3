@@ -7,24 +7,22 @@ using System.Threading.Tasks;
 
 namespace Cocktails
 {
-    public class Ingredient
+    public class Drink
     {
-        //public Ingredient(string name, string type, bool alcohol)
+        //public Drink(List<Ingredient> ingredients, string name)
         //{
+        //    this.ingredients = ingredients;
         //    Name = name;
-        //    Type = type;
-        //    Alcohol = alcohol;
         //}
-        //empty construcktor because.....entityFramework
-        //public Ingredient()
-        //{
 
+        //empty construcktor because.....entityFramework
+        //public Drink()
+        //{
         //}
         [Key]
-        public int ingredientsID { get; set; }
+        public int drinkID { get; set; }
 
+        public List<Ingredient> ingredients { get; set; }
         public string Name { get; set; }
-        public string Type { get; set; }
-        public bool Alcohol { get; set; }
     }
 }
