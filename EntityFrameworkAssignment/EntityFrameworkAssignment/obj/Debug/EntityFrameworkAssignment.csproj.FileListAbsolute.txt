@@ -1,0 +1,12 @@
+C:\Users\mich612i\OneDrive\H3\GITHUB\H3\EntityFrameworkAssignment\EntityFrameworkAssignment\bin\Debug\EntityFrameworkAssignment.exe.config
+C:\Users\mich612i\OneDrive\H3\GITHUB\H3\EntityFrameworkAssignment\EntityFrameworkAssignment\bin\Debug\EntityFrameworkAssignment.exe
+C:\Users\mich612i\OneDrive\H3\GITHUB\H3\EntityFrameworkAssignment\EntityFrameworkAssignment\bin\Debug\EntityFrameworkAssignment.pdb
+C:\Users\mich612i\OneDrive\H3\GITHUB\H3\EntityFrameworkAssignment\EntityFrameworkAssignment\bin\Debug\EntityFramework.dll
+C:\Users\mich612i\OneDrive\H3\GITHUB\H3\EntityFrameworkAssignment\EntityFrameworkAssignment\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mich612i\OneDrive\H3\GITHUB\H3\EntityFrameworkAssignment\EntityFrameworkAssignment\bin\Debug\EntityFramework.xml
+C:\Users\mich612i\OneDrive\H3\GITHUB\H3\EntityFrameworkAssignment\EntityFrameworkAssignment\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mich612i\OneDrive\H3\GITHUB\H3\EntityFrameworkAssignment\EntityFrameworkAssignment\obj\Debug\EntityFrameworkAssignment.csprojAssemblyReference.cache
+C:\Users\mich612i\OneDrive\H3\GITHUB\H3\EntityFrameworkAssignment\EntityFrameworkAssignment\obj\Debug\EntityFrameworkAssignment.csproj.CoreCompileInputs.cache
+C:\Users\mich612i\OneDrive\H3\GITHUB\H3\EntityFrameworkAssignment\EntityFrameworkAssignment\obj\Debug\EntityFrameworkAssignment.csproj.CopyComplete
+C:\Users\mich612i\OneDrive\H3\GITHUB\H3\EntityFrameworkAssignment\EntityFrameworkAssignment\obj\Debug\EntityFrameworkAssignment.exe
+C:\Users\mich612i\OneDrive\H3\GITHUB\H3\EntityFrameworkAssignment\EntityFrameworkAssignment\obj\Debug\EntityFrameworkAssignment.pdb
