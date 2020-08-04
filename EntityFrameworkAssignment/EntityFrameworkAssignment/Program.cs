@@ -17,7 +17,6 @@ namespace EntityFrameworkAssignment
                 ctx.Students.Add(stud);
                 ctx.SaveChanges();
             }
-            Console.ReadKey();
         }
     }
 }
