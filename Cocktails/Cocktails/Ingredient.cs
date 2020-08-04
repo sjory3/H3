@@ -9,17 +9,6 @@ namespace Cocktails
 {
     public class Ingredient
     {
-        //public Ingredient(string name, string type, bool alcohol)
-        //{
-        //    Name = name;
-        //    Type = type;
-        //    Alcohol = alcohol;
-        //}
-        //empty construcktor because.....entityFramework
-        //public Ingredient()
-        //{
-
-        //}
         [Key]
         public int ingredientsID { get; set; }
 
