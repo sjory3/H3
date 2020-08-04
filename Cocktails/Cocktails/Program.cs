@@ -53,16 +53,29 @@ namespace Cocktails
                     new Ingredient{Name = "pineapple juice",Type = "liquid",Alcohol = false},
                     new Ingredient{Name = "grapefruit juice",Type = "liquid",Alcohol = false},
                     new Ingredient{Name = "cola",Type = "liquid",Alcohol = false},
-                    new Ingredient{Name = "peach puree",Type = "liquid",Alcohol = false},
-
+                    new Ingredient{Name = "peach puree",Type = "liquid",Alcohol = false}
                 };
-
             using (var ctx = new BarContext())
             {
+
                 foreach (var item in ingredients)
                 {
                     ctx.ingredients.Add(item);
                 }
+                
+                Drink margarita = new Drink()
+                {
+                    Name = "Margarita",
+                    items = new List<Item>(){
+                        new Item{ml = 60, ingredient = ctx.ingredients.Find(28)},
+                        new Item{ml = 30,ingredient = ctx.ingredients.Find(1)},
+                        new Item{ml = 60, ingredient = ctx.ingredients.Find(2)},
+                        new Item{ml = 1, ingredient = ctx.ingredients.Find(27)},
+                        new Item{ml = 1, ingredient = ctx.ingredients.Find(17)}
+                    }
+                };
+
+                ctx.drinks.Add(margarita);
                 ctx.SaveChanges();
 
             }

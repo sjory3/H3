@@ -22,7 +22,7 @@ namespace Cocktails
         [Key]
         public int drinkID { get; set; }
 
-        public List<Ingredient> ingredients { get; set; }
+        public List<Item> items { get; set; }
         public string Name { get; set; }
     }
 }

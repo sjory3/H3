@@ -11,7 +11,7 @@ namespace Cocktails
     {
         public BarContext() : base()
         {
-
+            //Database.SetInitializer<BarContext>(new DropCreateDatabaseAlways<BarContext>());
         }
 
         public DbSet<Drink> drinks { get; set; }
