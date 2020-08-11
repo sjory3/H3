@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+.header{
+    margin: auto;
+    width: 50%;
+    background-color: #e0e0e0;
+    text-align: center;
+}
+
+.background{
+    width: 100%;
+    background-color: blue;
+    align-content: center;
+}
+
+.header h2,
+.header h3{
+    font-family: Arial;
+    color: #000000;
+}
+
+.header h2{
+    text-transform: uppercase;
+}
+
+.header h3{
+    font-size: small;
+    font-style: italic;
+}
