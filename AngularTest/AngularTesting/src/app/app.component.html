@@ -1,17 +1,30 @@
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
-<!-- * * * * * * * to get started with your project! * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!--Background is the entire background for the website everything is inside of it-->
 <div class="background">
-
-  <div class="header">
-    <h2>hello world</h2>
-    <h3>Af Michael Jakobsen</h3>
+  <!--header background is the background for the header-->
+  <div class="header-background">
+    <!--the spacer is simply just to make space btween the other divs-->
+    <div class="spacer"></div>
+    <!--the header contains the head title-->
+    <div class="header">
+      <h1>{{title}}</h1>
+    </div>
+  </div>
+  <div class="padding"></div>
+  <div class="input-background">
+    <div class="padding">
+      <input type="text">
+    </div>
+    <div class="padding">
+      <input type="text">
+    </div>
+    <div class="padding">
+      <button>Calculate</button>
+    </div>
+    <div class="padding">
+      <input type="the answard">
+    </div>
   </div>
 </div>
+
 
 <router-outlet></router-outlet>
