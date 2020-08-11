@@ -1,0 +1,18 @@
+<div class="padding"></div>
+<div class="input-background">
+  <div class="padding">
+      <p>Please insert side A</p>
+    <input (keyup) = "sideA($event)" type="number">
+  </div>
+  <div class="padding">
+      <p>Please inser side B</p>
+    <input (keyup) = "sideB($event)" type="number">
+  </div>
+  <div class="padding">
+    <button (click) = "Calculate()">Calculate</button>
+  </div>
+  <div class="padding">
+    <p>the Area is {{areaValue}}</p>
+    <p>the Perimeter is {{perimeterValue}}</p>
+  </div>
+</div>
