@@ -1,0 +1,60 @@
+.header{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.header-background{
+    margin-left: -10px;
+    margin-top: -20px;
+    width: 101%;
+    height: 100px;
+    background-color: rgba(190, 190, 255, 0.473);
+    align-content: center;
+}
+
+.background{
+    margin-left: -10px;
+    width: 104%;
+    height: 700px;
+    
+    background-image: url('Images\Trump.jpg');
+    background-repeat: no-repeat;
+   
+    background-size: 100% 100%;
+    
+}
+
+.spacer{
+    height: 10px;
+}
+
+h1{
+    font-family: Arial;
+}
+
+.table-body{
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+    background-color: rgba(190, 190, 190, 0.945);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    align-items: center;
+}
+
+.colorHighLightGreen{
+    background-color: green;
+}
+
+.colorHighLightRed{
+    background-color: red;
+}
+
+table, th,
+tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: Arial;
+}
+
