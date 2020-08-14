@@ -123,8 +123,5 @@
       }
     }
   },
-  "defaultProject": "Trumps",
-  "cli": {
-    "analytics": false
-  }
+  "defaultProject": "Trumps"
 }

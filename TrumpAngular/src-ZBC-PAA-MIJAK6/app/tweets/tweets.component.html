@@ -1,0 +1,34 @@
+<div class="background">
+  <div class="header-background">
+    <div class="spacer"></div>
+    <div class="header">
+      <h1>Trumps Tweets</h1>
+    </div>
+  </div>
+  <div class="table-body">
+    <table>
+      <tr>
+        <th>Date</th>
+        <th>Likes</th>
+        <th>Text</th>
+      </tr>
+      <!--on the line below we use a ngClass and do a oneline if statement with "?" the : '' is to not add anymore to it-->
+      <tr *ngFor="let Tweets of twat" [ngClass]="Tweets.text.includes('like')? 'colorHighLightRed' : '' || 
+      (Tweets.date.toString().includes('May')? 'colorHighLightGreen' : '' && 
+      Tweets.likes > 150000? 'colorHighLightGreen' : '' )"> <!--
+          the ngclass color the tweets that include 'like' to red and it also makes the tweets
+          frome may to green but it does not care about the "Tweets.likes > 200000?"
+      -->
+        <td>
+          {{Tweets.date}}
+        </td>
+        <td>
+          {{Tweets.likes}}
+        </td>
+        <td>
+          {{Tweets.text}}
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>

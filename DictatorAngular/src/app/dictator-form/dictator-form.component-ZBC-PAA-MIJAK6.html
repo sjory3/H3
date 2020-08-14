@@ -1,0 +1,46 @@
+<div class="background">
+  <div class="form-container">
+      <h1>Dictators</h1>
+    <div class="form">
+      <form #dictatorForm="ngForm" (ngSubmit)="AddDictator()">
+        <label>First Name: </label>
+        <input type="text" name="firstName" [(ngModel)]="firstName"><br>
+        <label>Last Name: </label>
+        <input type="text" name="lastName" [(ngModel)]="lastName"><br>
+        <label>Birth Date: </label>
+        <input type="date" name="birthDate" [(ngModel)]="birthDate"><br>
+        <label>Death Date: </label>
+        <input type="date" name="deathDate" [(ngModel)]="deathDate"> <br>
+        <input type="submit" name="addDictator">
+      </form>
+    </div>
+  </div>
+  <div class="table-container">
+    <table>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Birth</th>
+        <th>Death</th>
+        <th>Delete</th>
+      </tr>
+      <tr *ngFor="let dic of dictatorList; let i = index">
+        <td>
+          {{dic.firstName}}
+        </td>
+        <td>
+          {{dic.lastName}}
+        </td>
+        <td>
+          {{dic.birthDate}}
+        </td>
+        <td>
+          {{dic.deathDate}}
+        </td>
+        <td>
+          <button (click)="deleteDictator(i)">Delete</button>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>

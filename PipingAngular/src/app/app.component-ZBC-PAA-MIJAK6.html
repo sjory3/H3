@@ -1,0 +1,17 @@
+<div class="header">
+  <h1>Text to Morsecode</h1>
+</div>
+<div class="context">
+  <div class="padding"></div>
+  <h1>Please type the message you want to convert to Morsecode</h1>
+  <div class="padding"></div>
+  <input [(ngModel)]="input" type="text" >
+  <button (click)='onClick()'>Converter</button>
+  <div class="result-container">
+    <p>{{result | converter}}</p>
+  </div>
+
+</div>
+
+
+<router-outlet></router-outlet>
