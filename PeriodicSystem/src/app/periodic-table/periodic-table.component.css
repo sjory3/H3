@@ -9,9 +9,27 @@ tr, td{
     font-family: Arial;
 }
 
+.element-number{
+    font-size: 9px;
+}
+.element-name{
+    font-size: 10px;
+}
+.element-symbol{
+    font-size: 16px;
+}
+.element-atomicMass{
+    font-size: 8px;
+}
+
+p{
+    margin: 0px;
+}
+
 div, .number-element{
     width: 50px;
     height: 50px;
+    overflow: hidden;
 }
 
 div{
