@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Element } from './element';
 import { HttpClient} from '@angular/common/http';
-import { NgForOf } from '@angular/common';
 
 @Injectable({
   providedIn: 'root'
@@ -10,12 +9,11 @@ export class ElementServiceService {
   //private httpClient: HttpClient
   constructor(private httpClient: HttpClient) {
     console.log('Element service called')
-    this.MapData();
-   }
-  request;
-  elements:Element[]=[]
-
-  MapData(): void {
+  }
+    request;
+    elements:Element[]=[]
+  
+  public MapData(): Element[] {
     console.log('MapData Called')
     this.httpClient.get('https://neelpatel05.pythonanywhere.com/').subscribe(data=>{
     this.request = data;
@@ -30,6 +28,6 @@ export class ElementServiceService {
       this.elements.push(tempElement);
       }  
     })
-    console.log(this.elements);
+    return this.elements;
   }
 }

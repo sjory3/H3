@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import{Element} from '../element';
 import { ElementServiceService } from '../element-service.service';
 
 @Component({
@@ -9,10 +10,11 @@ import { ElementServiceService } from '../element-service.service';
 })
 export class PeriodicTableComponent implements OnInit {
 
-  constructor() { }
+  constructor(private elementservice: ElementServiceService) { }
+
+  elements:Element[]=[];
 
   ngOnInit(): void {
-    
+    this.elements = this.elementservice.MapData();
   }
-
 }
