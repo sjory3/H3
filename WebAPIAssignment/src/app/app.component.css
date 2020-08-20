@@ -1,0 +1,11 @@
+.Custom-content-holder{
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(109, 160, 226);
+}
+.Custom-Search-Wrapper{
+    margin: auto;
+    padding: 10px;
+    width: 300px;
+}

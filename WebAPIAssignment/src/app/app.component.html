@@ -1,7 +1,17 @@
-<div>
-    <input type="text">
-    <h1>City: {{city}}</h1> 
-    <h1>Temp : {{weather.main.temp}}</h1>
-    <h2>Feels Link : {{weather.main.feels_like}}</h2>
-    <h4>{{weather.weather[0].description}}</h4>
+<div class="Custom-content-holder">
+  <h1>{{currentCity}}</h1>
+  <h2>{{weather.main.temp}}°C</h2>
+  <h3>Feels Like : {{weather.main.feels_like}}°C</h3>
+  <h4>{{weather.weather[0].description}}</h4>
+
+  <div class="Custom-Search-Wrapper">
+    <div class="input-group mb-3">
+      <input type="text" name="CityName" [(ngModel)]="city" class="form-control" placeholder="Search"
+        aria-label="Recipient's username" aria-describedby="button-addon2">
+      <div class="input-group-append">
+        <button class="btn btn-primary" (click)="UpdateCity()" type="button"
+          id="button-addon2">Search</button>
+      </div>
+    </div>
+  </div>
 </div>
